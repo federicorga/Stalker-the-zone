@@ -4,7 +4,7 @@
 
 _Stalker The Zone_
 
-- [Pagina del Proyecto](https://chat-stalkers.glitch.me/index)
+- [Pagina del Proyecto](https://federicorga.github.io/Stalker-the-zone/)
 
 
 
