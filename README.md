@@ -4,7 +4,7 @@
 
 _Stalker The Zone_
 
-- [Pagina del Proyecto](https://chat-stalkers.glitch.me/index)
+- [Pagina del Proyecto](https://federicorga.github.io/Stalker-the-zone/)
 
 
 
@@ -66,14 +66,15 @@ El chat fue construido con Express y Socket.io, se puede interactuar con las per
 
 ## Screenshot:
 
-![img1](https://github.com/federicorga/ChatStalkers/blob/main/src/public/docs/S1.png)
+![img1](https://github.com/federicorga/Stalker-the-zone/blob/main/docs/S1.png)
 
-![img2](https://github.com/federicorga/ChatStalkers/blob/main/src/public/docs/S2.png)
 
-![img3](https://github.com/federicorga/ChatStalkers/blob/main/src/public/docs/S3.png)
+![img2](https://github.com/federicorga/Stalker-the-zone/blob/main/docs/S2.png)
 
-![img4](https://github.com/federicorga/ChatStalkers/blob/main/src/public/docs/S4.png)
+![img3](https://github.com/federicorga/Stalker-the-zone/blob/main/docs/S3.png)
 
-![img5](https://github.com/federicorga/ChatStalkers/blob/main/src/public/docs/S5.png)
+![img4](https://github.com/federicorga/Stalker-the-zone/blob/main/docs/S4.png)
 
-![img6](https://github.com/federicorga/ChatStalkers/blob/main/src/public/docs/S6.png)
+![img5](https://github.com/federicorga/Stalker-the-zone/blob/main/docs/S5.png)
+
+![img6](https://github.com/federicorga/Stalker-the-zone/blob/main/docs/S6.png)
