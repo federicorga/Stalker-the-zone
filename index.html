@@ -8,12 +8,13 @@
     <title>Stalker - The Zone</title>
 </head>
 <body class="page1">
-    <section id="loader" class="SectionLoader" >
+    <section id="loader" class="SectionLoader .particles-js-canvas-el" >
         <img id="imgLoader"class="radCarga" src="img/cargando.webp" alt="Loading">
         <p class="loaderp">Cargando La Zona...</p>
      </section>   
     
 <header>
+    
     <section class="section-header">
     <nav class="navBarMain">
         
@@ -22,10 +23,12 @@
     <li><a class="linkANav" href="https://chat-stalkers.glitch.me/pda-chat"><span>P.D.A.</span></a></li></ul>
     </nav>
     </section>
-    </header>
+    </header >
     <h1 class="tituloIndex">S.T.A.L.K.E.R. THE ZONE</h1>
-    
-    <img class="imgPortadaStalker" src="img/fondo/animportada1.webp" alt="Portada-fondo">
+
+    <div id="particles-js" class="imgPortadaStalker"></div>
+   
+
     
     
     <main>
@@ -162,6 +165,8 @@
     
     </main>
     
+    <script src="js/particles.min.js"></script>
+    <script src="js/particlesJson.js"></script>
     <script type="module" src="js/main.js"></script>
 </body>
 </html>
