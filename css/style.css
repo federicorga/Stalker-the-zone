@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@font-face {
+  font-family: 'stalker';
+  src: url('../font/AmazS.T.A.L.K.E.R.v.3.0.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html{
+  animation: animateCursor 0.8s infinite;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik",sans-serif;
+  animation: animateCursor 0.8s infinite;
+  background-color: #000;
+  line-height: inherit;
+
+}
+
+
+
+/*----PAGINA INDEX----*/
+
+.imgPortadaStalker{
+  width: 100%;
+}
+
+.stalker-historia-juego{
+  background: url("../img/fondo/bg2.webp");
+  
+  width: 100%;
+  height: 37.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f2e8d9;
+}
+
+.stalker-History{
+  background: url("../img/fondo/bg3.webp");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f2e8d9;
+}
+
+.stalker-History h3{
+  color: #ee991a;
+}
+
+.stalker-History p{
+  font-size: 0.9rem;
+}
+.histjuegmasimg{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 1.5rem;
+  justify-content: space-around;
+}
+
+.historia-texto{
+  width: 47rem;
+  margin-right: 1.9rem;
+}
+
+.historia-texto h3{
+  color:#ee991a
+}
+
+.historia-texto p{
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.historia-texto ul{
+  padding: 15px;
+}
+
+.historia-texto ul li{
+  color: #ee991a;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.ediciones-stalker{
+  background: url("../img/fondo/bg4.webp");
+
+  width: 100%;
+  background-repeat: no-repeat;
+  color: #f2e8d9;
+  height: 600px;
+  background-size: cover;
+}
+
+.Titulosh2Index{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Titulosh2Index h2{
+  font-size: 3rem;
+  line-height: 1;
+  color: #f2e8d9;
+  font-family: "Oswald",sans-serif;
+  margin: 0;
+  margin-top: 5rem;
+}
+
+.histmasimg{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 1.5rem;
+
+}
+
+.content-imgclassif{
+  display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+  
+}
+
+.content-imgclassif img{
+  border-radius: 5%;
+}
+
+
+
+
+.content-cart-stalkers{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+/*-----NAVBAR*----*/
+
+header{
+
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(180deg,#181512,#181512 24.27%,rgba(24,21,18,.8) 71.5%,rgba(24,21,18,.7) 78.4%,rgba(24,21,18,.6) 81.85%,rgba(24,21,18,.5) 85.08%,rgba(24,21,18,.4) 88.53%,rgba(24,21,18,.3) 91.55%,rgba(24,21,18,.2) 94.14%,rgba(24,21,18,.1) 97.37%,rgba(24,21,18,0));
+}
+
+.section-header{
+  display: flex;
+
+  align-items: center;
+  max-width: 88vw;
+}
+
+.tituloIndex{
+  font-size: 5rem;
+  position: absolute;
+  top: 173px;
+  padding-left: 1.5%;
+  font-family: 'stalker', sans-serif;
+  margin: 0;
+  font-weight: 550;
+  color: #f2e8d9;
+  letter-spacing: 1px;
+  text-shadow: 3px 5px 2px #474747;
+  margin-left: 30px;
+}
+
+.navBarMain{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.navBarMain ul{
+  list-style: none;
+  display: flex;
+  font-weight: 100;
+  padding: 0;
+}
+.navBarMain ul li{
+  margin-right: 1.25rem;
+}
+.navBar{
+  position: absolute;
+}
+
+.navBar ul{
+  list-style: none;
+}
+
+.linkANav{
+  color: #f2e8d9;
+opacity: .7;
+
+  position: relative;
+text-decoration: none;}
+
+.linkANav:hover{
+  opacity: 1;
+  color: #f2e8d9;
+  transition: 0.5s
+}
+
+.linkANav:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+    opacity: 1;
+    
+}
+
+
+.linkANav::before{
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 0;
+  height: 1.2px;
+  background-color: #ee991a;
+  transition: width .6s cubic-bezier(.25,1,.5,1);
+
+  
+}
+
+.linkANav span{
+  text-transform: uppercase;
+  font-family: "Oswald",sans-serif;
+}
+
+
+
+
+.titulo{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 2.2rem;
+}
+
+
+
+.cabezera-titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lineradiation{
+  width: 23rem;
+  margin-bottom: 2.5rem;
+}
+
+h1{
+  font-size: 4rem;
+    font-family: 'stalker', sans-serif;
+    margin: 0;
+    font-weight: 550;
+    color: #f2e8d9;
+    letter-spacing: 1px;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+
+
+
+
+
+@keyframes animateCursor {
+
+  0%{
+    cursor: url("../img/mouse/mouse_frame0.gif"), auto;
+  }
+  14.2857%{
+    cursor: url("../img/mouse/mouse_frame1.gif"), auto;
+  }
+  28.5714%{
+    cursor: url("../img/mouse/mouse_frame2.gif"), pointer;
+  }
+  42.8571%{
+    cursor: url("../img/mouse/mouse_frame3.gif"), pointer;
+  }
+  57.1429%{
+    cursor: url("../img/mouse/mouse_frame4.gif"), pointer;
+  }
+  71.4286%{
+    cursor: url("../img/mouse/mouse_frame5.gif"), pointer;
+  }
+  85.7143%{
+    cursor: url("../img/mouse/mouse_frame6.gif"), pointer;
+  }
+  100%{
+    cursor: url("../img/mouse/mouse_frame7.gif"), pointer;
+  }
+  
+};
+
+
+
+
+
+
+.backPopu{
+  background: #000000bf;
+  font-family: "Oswald",sans-serif;
+  color: #ee991a;
+}
+
+
+
+/*--------LOADER------*/
+
+
+ .SectionLoader{
+  position: fixed;
+  background: black;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: animateCursor 0.8s infinite;
+
+}
+
+
+.radCarga{
+
+  animation: latido 1.5s infinite;
+  width: 7rem;
+}
+
+@keyframes latido {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2);
+    filter: brightness(1.5); }
+  100% { transform: scale(1);
+    filter: brightness(1) }
+}
+
+
+.loaderp{
+  color: #ee991a;
+    margin-top: 30px;
+}
+
+
+
+
+
+@keyframes spin-horizontal {
+  0% {
+    
+    filter: brightness(1);
+  }
+  50% {
+    
+    filter: brightness(1.2);
+  }
+  100% {
+    
+    filter: brightness(1);
+  }
+}
+
+/*--SCROLLBAR---*/
+
+.page1 ::-webkit-scrollbar, ::-webkit-scrollbar {
+
+  background-image: url("../img/scrollBar/fondoscroll.webp");
+}
+
+.page1::-webkit-scrollbar-thumb {
+ 
+  background-image: url("../img/scrollBar/barrascroll.webp");
+
+  
+}
+
+.page1::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track {
+ 
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+
+.page1::-webkit-scrollbar-track {
+
+  background-image: url("../img/scrollBar/elementscroll.webp");
+  margin: 2rem 0;
+}
+
+
+/*---Cards Stalker---*/
+
+.cardGame {
+  width: 173px;
+  height: 252px;
+  background-image: linear-gradient(163deg, #ee991a 0%, #9e2800 100%);
+  border-radius: 5%;
+  transition: all .3s;
+  box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+ }
+ 
+ .cardGame2 {
+  display: block;
+  width: 176px;
+  height: 257px;
+  position: relative;
+  top: -3px;
+  left: -2px;
+  background-size: cover;
+  transition: all .2s;
+  padding: 0;
+  border-radius: 9px;
+  margin: 0;
+  
+ }
+ 
+ .cardGame2:hover {
+  transform: scale(0.96);
+  border-radius: 5%;
+  
+ }
+ 
+ .cardGame:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
+
+ .cardGame2 a img{
+  border-radius: 5%;
+  
+ }
+
+
