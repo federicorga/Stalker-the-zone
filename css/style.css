@@ -24,6 +24,11 @@ body{
 
 }
 
+p{
+  margin: 0;
+  font-size: 0.75rem;
+}
+
 
 
 /*----PAGINA INDEX----*/
