@@ -468,3 +468,42 @@ h1{
  }
 
 
+@media (max-width: 1075px) {
+
+	.pagConstruccion{
+    display: flex;
+    position: absolute;
+    z-index: 10000;
+    justify-content: center;
+    height: 100%;
+    color: #faf9f9;
+    letter-spacing: 1px;
+    width: 100vw;
+    background: url('../img/fondo/bg2.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    flex-direction: column;
+
+  
+	}
+
+  header{
+    display: none;
+  }
+
+  .tituloIndex{
+    display: none;
+  }
+  .imgPortadaStalker{
+    display: none;
+  }
+
+  main{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+  } 
