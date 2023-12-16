@@ -30,11 +30,6 @@ p{
 }
 
 
-.particles-js-canvas-el{
-  width: 65% !important;
-
-}
-
 
 
 /*----PAGINA INDEX----*/
@@ -42,12 +37,14 @@ p{
 .imgPortadaStalker{
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../img/fondo/animportada1.webp");
+  background-image: url("../img/fondo/stalker2.webp");
   width: 100%;
+  
+    height: 40rem;
 }
 
 .stalker-historia-juego{
-  background: url("../img/fondo/bg2.webp");
+  background: url("../img/fondo/bg.webp");
   
   width: 100%;
   height: 37.5rem;
@@ -181,7 +178,7 @@ header{
 }
 
 .tituloIndex{
-  font-size: 5rem;
+  font-size: 7rem;
   position: absolute;
   top: 173px;
   padding-left: 1.5%;
@@ -459,7 +456,7 @@ h1{
  }
  
  .cardGame:hover {
-  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+  box-shadow: 0px 0px 30px 1px rgb(238, 153, 26);
  }
 
  .cardGame2 a img{
@@ -507,3 +504,139 @@ h1{
     display: none;
   }
   } 
+
+
+
+
+
+  /*--------------BTN PADA------------------*/
+  .containerBtnPda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 200px;
+    position: relative;
+    top: 20rem;
+    left: 15rem;
+  }
+
+  .imgicoPDAIncio{
+    width: 40px;
+    filter: invert(1);
+   
+  }
+
+
+  .containerBtnPda .btn {
+    height: 50px;
+    margin: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 155px;
+  }
+  
+  .containerBtnPda .btn a {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    z-index: 1;
+    transition: 0.5s;
+  }
+  
+  .containerBtnPda .btn:hover a {
+    letter-spacing: 2px;
+  }
+  
+  .containerBtnPda .btn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left,
+                  rgba(255,255,255,0.15),
+                  transparent);
+    transform: skewX(45deg) translateX(0);
+    transition: 0.5s;
+  }
+  
+  .containerBtnPda .btn:hover a::before {
+    transform: skewX(45deg) translateX(200%);
+  }
+  
+  .containerBtnPda .btn::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    height: 10px;
+    width: 30px;
+    background: #ee991a;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+  
+  .containerBtnPda .btn:hover::before {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+  }
+  
+  .containerBtnPda .btn::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+    height: 10px;
+    width: 30px;
+    background: #ee991a;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+  
+  .containerBtnPda .btn:hover::after {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+  }
+  
+  .containerBtnPda .btn:nth-child(1):before,
+  .containerBtnPda .btn:nth-child(1)::after {
+    background: #ee991a;
+    box-shadow: 0 0 5px #ee991a,
+      0 0 15px #ee991a,
+      0 0 30px #ee991a,
+      0 0 60px #ee991a;
+  }
+  
+  .containerBtnPda .btn:active a {
+    color: #000;
+  }
+  
