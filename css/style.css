@@ -176,19 +176,40 @@ header{
   align-items: center;
   max-width: 88vw;
 }
+.titleSeccion{
+  position: absolute;
+  display: flex;
+  top: 74px;
+  padding-left: 1.5%;
+  margin: 0;
+  left: 88px;
+  margin-left: 30px;
+  flex-direction: column;
+  align-items: center;
+}
 
 .tituloIndex{
-  font-size: 7rem;
-  position: absolute;
-  top: 173px;
-  padding-left: 1.5%;
+  font-size: 9rem;
   font-family: 'stalker', sans-serif;
-  margin: 0;
   font-weight: 550;
   color: #f2e8d9;
+  height: 171px;
   letter-spacing: 1px;
   text-shadow: 3px 5px 2px #474747;
-  margin-left: 30px;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.subTituloIndex{
+  font-size: 4rem;
+  top: 173px;
+  font-family: 'stalker', sans-serif;
+  font-weight: 550;
+  color: #bbbbbb;
+  letter-spacing: 1px;
+  text-shadow: 3px 5px 2px #474747;
+  margin: 0;
 }
 
 .navBarMain{
@@ -269,6 +290,10 @@ text-decoration: none;}
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.lineradiationh1{
+  width: 23rem;
 }
 
 .lineradiation{
@@ -514,10 +539,15 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 200px;
+    width: 273px;
     position: relative;
-    top: 20rem;
-    left: 15rem;
+    top: 22rem;
+    left: 13rem;
+  }
+
+  .ptextocontPDA{
+    color: #f2e8d9;
+    text-align: center;
   }
 
   .imgicoPDAIncio{
